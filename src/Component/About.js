@@ -1,6 +1,15 @@
+import Carousel, {CarouselItem} from "./Carousel"
+import React from "react"
+
 const About = () => {
     return(
-        <p>
+        <div>
+            <Carousel >
+                <CarouselItem>item 1</CarouselItem>
+                <CarouselItem>item 2</CarouselItem>
+                <CarouselItem>item 3</CarouselItem>
+            </Carousel>
+            <p>
             Full-stack software engineer who has experience getting his hands messy; 
             my unique background from working with executive chefs as well as surveying 
             archeological digs has sharpened my interpersonal communication, 
@@ -12,7 +21,9 @@ const About = () => {
              or styling up the front-end with a little flair (thanks plating!) 
              I am hungry for new opportunities moving forward 
             and am eager to learn more about your business and how I can help.
-        </p>
+            </p>
+        </div>
+        
     )
 }
 
