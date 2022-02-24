@@ -2,12 +2,13 @@ import Carousel, {CarouselItem} from "./Carousel"
 import React from "react"
 
 const About = () => {
+    const image = ['https://res.cloudinary.com/dx3a3l6k0/image/upload/v1632779116/Screen_Shot_2021-09-27_at_5.44.27_PM_cnvup1.png']
     return(
         <div>
             <Carousel >
-                <CarouselItem>item 1</CarouselItem>
-                <CarouselItem>item 2</CarouselItem>
-                <CarouselItem>item 3</CarouselItem>
+                <CarouselItem src='image'><img src= {image}/></CarouselItem>
+                <CarouselItem></CarouselItem>
+                <CarouselItem></CarouselItem>
             </Carousel>
             <p>
             Full-stack software engineer who has experience getting his hands messy; 
