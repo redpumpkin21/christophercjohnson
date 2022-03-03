@@ -1,3 +1,30 @@
 body{
     text-align: center;
 }
+
+/* project css mobile*/
+.Projects{
+    display: flex;
+    flex-direction: column;
+}
+.Projects img{
+    width: 45%;
+    height: 115%;
+    
+}
+.BookNRead, .Frizzy, .Kdrama, .VideoGame{
+    display:grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
+.BookNRead img, .BookNRead h5{
+    grid-column-start: 1;
+    grid-column-end:1 ;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.BookNRead p{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}

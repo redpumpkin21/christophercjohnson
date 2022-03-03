@@ -1,10 +1,21 @@
+import { Link } from "react-router-dom"
+
 const Nav = () => {
     return (
-        <ul>
-            <li>Home</li>
-            <li>Contact</li>
-            <li>Resume</li>
-        </ul>
+        <div>
+            <li>
+                <Link to= '/'>
+                    Home
+                </Link>
+            </li>
+            <li><Link to='/contact'>
+                    Contact Me
+                </Link>
+            </li>
+            <li>
+                resume
+            </li>
+        </div>
     )
 }
 
