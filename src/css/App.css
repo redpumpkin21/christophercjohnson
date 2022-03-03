@@ -1,7 +1,9 @@
 body{
     text-align: center;
 }
-
+.App-header p{
+    margin-bottom: 0;
+}
 /* project css mobile*/
 .Projects{
     display: flex;
@@ -9,7 +11,7 @@ body{
 }
 .Projects img{
     width: 45%;
-    height: 115%;
+    /* height: 115%; */
     
 }
 .BookNRead, .Frizzy, .KDrama, .VideoGame{
