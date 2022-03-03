@@ -12,18 +12,18 @@ body{
     height: 115%;
     
 }
-.BookNRead, .Frizzy, .Kdrama, .VideoGame{
+.BookNRead, .Frizzy, .KDrama, .VideoGame{
     display:grid;
     grid-template-columns: 2;
     grid-template-rows: 2;
 }
-.BookNRead img, .BookNRead h5{
+.BookNRead img, .Frizzy img, .KDrama img, .VideoGame img{
     grid-column-start: 1;
     grid-column-end:1 ;
-    grid-row-start: 1;
+    grid-row-start: 2;
     grid-row-end: 2;
 }
-.BookNRead p{
+.BookNRead p, .Frizzy p, .KDrama p, .VideoGame p{
     grid-column-start: 2;
     grid-row-start: 1;
     grid-row-end: 2;
