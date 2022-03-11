@@ -1,5 +1,6 @@
 import About from "../Component/About"
 import Carousel from "../Component/Carousel"
+import Contact from "../Component/Contact"
 import Projects from "../Component/Projects"
 
 const Home = () => {
@@ -8,6 +9,8 @@ const Home = () => {
             <About />
             
             <Projects />
+
+            <Contact />
         </div>
     )
 }
