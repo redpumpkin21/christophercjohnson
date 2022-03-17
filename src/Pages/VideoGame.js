@@ -1,6 +1,9 @@
+import ScrollToTop from "../Component/scrollToTop"
+
 const VideoGame = () => {
     return(
         <div>
+            <ScrollToTop />
             <img className ='vgImg'src='https://res.cloudinary.com/dx3a3l6k0/image/upload/v1643240979/Screen_Shot_2022-01-26_at_6.44.44_PM_slslke.png' />
             <p>
                 Project where I utilized fullstack knowledge. 
