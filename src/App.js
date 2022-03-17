@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Christopher C Johnson</h1>
-        <h5> Software Engineer</h5>
+        <h2> Software Engineer</h2>
         {/* <ScrollToTop /> */}
         <Nav />
         <Routes>
