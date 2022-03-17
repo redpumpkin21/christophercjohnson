@@ -8,7 +8,7 @@ const Nav = () => {
                     Home
                 </Link>
             
-            <a href= '#form'>contact me</a>
+            <a href= 'https://christophercjohnson.vercel.app/#form'>contact me</a>
             
             <p>resume</p>
         </div>
