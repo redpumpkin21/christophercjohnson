@@ -1,9 +1,9 @@
 const Kdrama = () => {
     return(
         <div>
-            <p>/Image here</p>
+            <img className ='kdramaImg' src = 'https://res.cloudinary.com/dx3a3l6k0/image/upload/v1632780633/Screen_Shot_2021-09-27_at_6.09.45_PM_rmasxb.png'/>
             <p>
-                Group projects with one other person where 
+                Group project with one other person where 
                 I tackled the front end with Angular and SASS.
                 I used typescript as the javascript language and 
                 set it up the front so that it auto-populates
@@ -12,8 +12,8 @@ const Kdrama = () => {
                 the carousel and the navbar.
                 </p>
             <p>github frontend</p>
-            <p>github backend</p>
-            <p>link to site</p>
+            <a href='https://github.com/CodingStephy/K-drama-Love-Frontend-'> Front-end Git </a>
+            <a href='https://k-drama-love.vercel.app/'> Site </a>
         </div>
         
         

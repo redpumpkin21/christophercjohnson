@@ -2,14 +2,15 @@ import Carousel, {CarouselItem} from "./Carousel"
 import React from "react"
 
 const About = () => {
-    const image = ['https://res.cloudinary.com/dx3a3l6k0/image/upload/v1632779116/Screen_Shot_2021-09-27_at_5.44.27_PM_cnvup1.png']
+    const image = ['https://res.cloudinary.com/dx3a3l6k0/image/upload/v1641422294/6F754EF0-CFD7-47CD-A9DC-D4D968A7C229_1_102_o_crbx1p.jpg']
     return(
         <div>
-            <Carousel >
-                <CarouselItem src='image'><img src= {image}/></CarouselItem>
+            {/* <Carousel >
+                <CarouselItem  id='first' src='image'><img src= {image}/></CarouselItem>
                 <CarouselItem></CarouselItem>
                 <CarouselItem></CarouselItem>
-            </Carousel>
+            </Carousel> */}
+            <img className= 'first'src= 'https://res.cloudinary.com/dx3a3l6k0/image/upload/v1641422294/6F754EF0-CFD7-47CD-A9DC-D4D968A7C229_1_102_o_crbx1p.jpg'/>
             <p>
             Full-stack software engineer who has experience getting his hands messy; 
             my unique background from working with executive chefs as well as surveying 
