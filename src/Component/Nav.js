@@ -10,9 +10,9 @@ const Nav = () => {
             
             <a href= 'https://christophercjohnson.vercel.app/#form'>contact me</a>
             
-            <p>resume</p>
+            <a href='https://docs.google.com/document/d/1xV9EOuQh2WKUGFKEs3CxZUZSBPQIbJV3/edit?usp=sharing&ouid=107416650229481766405&rtpof=true&sd=true'> resume</a>
         </div>
-    )
-}
+
+    )}
 
 export default Nav
