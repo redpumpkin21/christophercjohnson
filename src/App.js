@@ -10,6 +10,7 @@ import BookNRead from './Pages/BookNRead';
 import Frizzy from './Pages/Frizzy';
 import Kdrama from './Pages/Kdrama';
 import VideoGame from './Pages/VideoGame';
+import ScrollToTop from './Component/scrollToTop';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <header className="App-header">
         <h1>Christopher C Johnson</h1>
         <h5> Software Engineer</h5>
+        <ScrollToTop />
         <Nav />
         <Routes>
           <Route path ='/' element={<Home />}/>                                  

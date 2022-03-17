@@ -17,6 +17,10 @@ body{
     /* height: 115%; */
     
 }
+.home{
+    padding-left: 5%;
+    padding-right: 5%;
+}
 .BookNRead, .Frizzy, .KDrama, .VideoGame{
     display:grid;
     grid-template-columns: 2;
@@ -43,6 +47,7 @@ body{
 .form{
     display:flex;
     flex-direction: column;
+    margin-top: 10%;
 }
 
 .first{
@@ -54,9 +59,11 @@ body{
 .frizzyImg, .kdramaImg{
     height: 320px;
     width: 300px;
+    margin-top: 10%;
 }
 
 .vgImg {
     height: 400px;
     width: 300px;
+    margin-top: 10%;
 }

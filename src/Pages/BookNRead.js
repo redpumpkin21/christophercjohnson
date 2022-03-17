@@ -1,3 +1,5 @@
+import Contact from "../Component/Contact"
+
 const BookNRead = () => {
     return(
         <div>
@@ -8,6 +10,7 @@ const BookNRead = () => {
             <p>github backend</p>
             <p>link to site</p>
             <a href='https://booknread.vercel.app/'>Site</a>
+            <Contact />
         </div>
         
         
