@@ -17,13 +17,28 @@ const About = () => {
             network procedures, while ensuring compliance with latest upgrades and 
             procedures. Astute at managing entire website and software development 
             lifecycle from inception till completion within defined scope, budget,
-            and quality. Talent for devising and implementing software solutions, 
+            and quality.</p>
+            
+            <p className='about2'>Talent for devising and implementing software solutions, 
             while automating and integrating systems to enhance productivity. 
             Skilled in performing requirement gathering and rapid prototyping to 
             reduce design and development time. Conversant communicator with 
             exceptional interpersonal, relationship-building, 
             problem-solving, and strategic / analytical thinking skills.
             </p>
+            <div className='skills'>
+            <h3>Skills:</h3>
+            
+            <p>Frameworks & Libraries:</p>
+            
+            <span>Spring Framework | AngularJS | ExtJS</span>
+            <p>Design Libraries:</p>
+            <span>Material Design	| Bootstrap</span>
+            <p>Development Tools:</p>
+            <span>Github | VS Code | Contentful | ReactStrap | Mongoose | Mongo DB</span>
+            <p>Languages:</p>
+            <span>JavaScript | CSS | JQuery | React | Angular | Express | Python | Typescript | SASS</span>
+            </div>
         </div>
         
     )

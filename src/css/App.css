@@ -55,10 +55,18 @@ body{
 
 .about{
     text-align: left;
-    margin-left: 2%;
+    /* margin-left: 2%; */
     
 }
+.about2{
+    margin-top: 2%;
+    /* margin-left: 2%; */
+    text-align: left;
+}
 
+.skills{
+    text-align: left;
+}
 .aboproj{
     text-align: left;
     padding: 5%;
