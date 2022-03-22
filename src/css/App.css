@@ -80,3 +80,25 @@ body{
     width: 300px;
     margin-top: 10%;
 }
+
+@media only screen and (min-width: 768px){
+        .nav{
+            justify-content: space-around;
+        }
+}
+
+@media only screen  and (min-width: 1440px){
+        .about{
+            padding-left: 10%;
+            padding-right: 10%;
+            
+        }
+        .aboproj{
+            padding-left: 10%;
+            padding-right: 10%;
+
+        }
+        img.first{
+            margin-top: 3%;
+        }
+}
