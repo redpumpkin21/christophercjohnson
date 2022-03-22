@@ -1,11 +1,26 @@
 body{
     text-align: center;
-    background-color: #9E9EA4;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(to right, white, #9E9EA4);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
 }
 .App-header p{
     margin-bottom: 0;
+}
+
+h1{
+    /* color: linear-gradient(to bottom right, red, yellow) */
+    background: radial-gradient(
+    circle farthest-corner at center center,
+    pink 0%,
+    #ffff00 25%,
+    #05c1ff 50%,
+    #ffff00 75%,
+    pink 100%
+    );
+    color: transparent;
+    background-clip: text;
+    
 }
 /* project css mobile*/
 .Projects{
