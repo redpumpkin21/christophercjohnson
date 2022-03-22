@@ -67,6 +67,9 @@ body{
 .skills{
     text-align: left;
 }
+.skill{
+    font-weight: bold;
+}
 .aboproj{
     text-align: left;
     padding: 5%;

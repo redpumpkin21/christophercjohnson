@@ -29,14 +29,14 @@ const About = () => {
             <div className='skills'>
             <h3>Skills:</h3>
             
-            <p>Frameworks & Libraries:</p>
+            <p className='skill'>Frameworks & Libraries:</p>
             
             <span>Spring Framework | AngularJS | ExtJS</span>
-            <p>Design Libraries:</p>
+            <p className='skill'>Design Libraries:</p>
             <span>Material Design	| Bootstrap</span>
-            <p>Development Tools:</p>
+            <p className='skill'>Development Tools:</p>
             <span>Github | VS Code | Contentful | ReactStrap | Mongoose | Mongo DB</span>
-            <p>Languages:</p>
+            <p className='skill'>Languages:</p>
             <span>JavaScript | CSS | JQuery | React | Angular | Express | Python | Typescript | SASS</span>
             </div>
         </div>
