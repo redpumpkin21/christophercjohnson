@@ -51,13 +51,25 @@ body{
     margin-top: 10%;
 }
 
+.about{
+    text-align: left;
+    margin-left: 2%;
+    
+}
+
+.aboproj{
+    text-align: left;
+    padding: 5%;
+    margin-left: 2%;
+}
+
 .first{
     height: 200px;
     width: 150px;
     margin-top: 5%;
 }
 
-.frizzyImg, .kdramaImg{
+.bookImg, .frizzyImg, .kdramaImg{
     height: 320px;
     width: 300px;
     margin-top: 10%;

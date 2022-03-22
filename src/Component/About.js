@@ -11,7 +11,7 @@ const About = () => {
                 <CarouselItem></CarouselItem>
             </Carousel> */}
             <img className= 'first'src= 'https://res.cloudinary.com/dx3a3l6k0/image/upload/v1641422294/6F754EF0-CFD7-47CD-A9DC-D4D968A7C229_1_102_o_crbx1p.jpg'/>
-            <p>
+            <p className='about'>
             Full-stack software engineer who has experience getting his hands messy; 
             my unique background from working with executive chefs as well as surveying 
             archeological digs has sharpened my interpersonal communication, 

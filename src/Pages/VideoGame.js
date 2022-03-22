@@ -5,7 +5,7 @@ const VideoGame = () => {
         <div>
             <ScrollToTop />
             <img className ='vgImg'src='https://res.cloudinary.com/dx3a3l6k0/image/upload/v1643240979/Screen_Shot_2022-01-26_at_6.44.44_PM_slslke.png' />
-            <p>
+            <p className ='aboproj'>
                 Project where I utilized fullstack knowledge. 
                 The backend was made with Django python and data 
                 was created using postman. The front end was used 
@@ -20,6 +20,7 @@ const VideoGame = () => {
             <a href='https://github.com/redpumpkin21/vgfront'> Front-end Git </a>
             <p>github backend</p>
             <a href='https://github.com/redpumpkin21/videogameapi'> Back-end Git </a>
+            <p>site</p>
             <a href='https://videogames-kohl.vercel.app/'>Site </a>
         </div>
         
