@@ -10,7 +10,7 @@ import BookNRead from './Pages/BookNRead';
 import Frizzy from './Pages/Frizzy';
 import Kdrama from './Pages/Kdrama';
 import VideoGame from './Pages/VideoGame';
-import ScrollToTop from './Component/scrollToTop';
+
 
 function App() {
   return (

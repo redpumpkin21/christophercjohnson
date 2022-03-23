@@ -10,6 +10,7 @@ const Nav = () => {
             </Link>            
             <a href= 'https://christophercjohnson.vercel.app/#form' >Contact Me</a>
             <a href ='https://www.linkedin.com/in/christopher-code-johnson/' target='_blank' rel= 'noreferror noopener'>Linkedin</a>
+            <a href='https://github.com/redpumpkin21' target='_blant' rel=' noreferror noopener'>Github</a>
             <a href='https://docs.google.com/document/d/1xV9EOuQh2WKUGFKEs3CxZUZSBPQIbJV3/edit?usp=sharing&ouid=107416650229481766405&rtpof=true&sd=true' target='_blank' rel= 'noreferror noopener'> Resume</a>
         </div>
 
