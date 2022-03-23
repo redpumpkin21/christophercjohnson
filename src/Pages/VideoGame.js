@@ -17,11 +17,11 @@ const VideoGame = () => {
                 </p>     
             <p>github frontend</p>
             
-            <a href='https://github.com/redpumpkin21/vgfront'> Front-end Git </a>
+            <a href='https://github.com/redpumpkin21/vgfront' target='_blank' rel= 'noreferror noopener'> Front-end Git </a>
             <p>github backend</p>
-            <a href='https://github.com/redpumpkin21/videogameapi'> Back-end Git </a>
+            <a href='https://github.com/redpumpkin21/videogameapi' target='_blank' rel= 'noreferror noopener'> Back-end Git </a>
             <p>site</p>
-            <a href='https://videogames-kohl.vercel.app/'>Site </a>
+            <a href='https://videogames-kohl.vercel.app/' target='_blank' rel= 'noreferror noopener'>Site </a>
         </div>
         
         

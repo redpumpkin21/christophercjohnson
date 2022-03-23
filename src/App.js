@@ -18,7 +18,6 @@ function App() {
       <header className="App-header">
         <h1>Christopher C Johnson</h1>
         <h2> Software Engineer</h2>
-        {/* <ScrollToTop /> */}
         <Nav />
         <Routes>
           <Route path ='/' element={<Home />}/>                                  

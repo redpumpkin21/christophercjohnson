@@ -11,9 +11,9 @@ const Frizzy = () => {
                 checkout page.
                 </p>
             <p>github frontend</p>
-            <a href='https://github.com/DeMe0/project3-frontend'> Front-end Git </a>
+            <a href='https://github.com/DeMe0/project3-frontend' target='_blank' rel= 'noreferror noopener'> Front-end Git </a>
             <p>site</p>
-            <a href='https://confident-shannon-bd54f9.netlify.app/'> site </a>
+            <a href='https://confident-shannon-bd54f9.netlify.app/' target='_blank' rel= 'noreferror noopener'> site </a>
         </div>
         
         
