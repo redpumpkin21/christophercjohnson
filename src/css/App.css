@@ -39,6 +39,11 @@ body{
     grid-row-start: 1;
     grid-row-end: 2;
 }
+.BookNRead a, .Frizzy a, .KDrama a, .VideoGame a{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
 
 .nav {
     display: flex;
