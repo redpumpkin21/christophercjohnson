@@ -5,12 +5,7 @@ const About = () => {
     const image = ['https://res.cloudinary.com/dx3a3l6k0/image/upload/v1641422294/6F754EF0-CFD7-47CD-A9DC-D4D968A7C229_1_102_o_crbx1p.jpg']
     return(
         <div>
-            {/* <Carousel >
-                <CarouselItem  id='first' src='image'><img src= {image}/></CarouselItem>
-                <CarouselItem></CarouselItem>
-                <CarouselItem></CarouselItem>
-            </Carousel> */}
-            <img className= 'first'src= 'https://res.cloudinary.com/dx3a3l6k0/image/upload/v1641422294/6F754EF0-CFD7-47CD-A9DC-D4D968A7C229_1_102_o_crbx1p.jpg'/>
+           <img className= 'first'src= 'https://res.cloudinary.com/dx3a3l6k0/image/upload/v1641422294/6F754EF0-CFD7-47CD-A9DC-D4D968A7C229_1_102_o_crbx1p.jpg'/>
             <p className='about'>
             Goal-oriented and tech-savvy professional with expertise in 
             software engineering and website development. Capable of designing 
@@ -28,10 +23,6 @@ const About = () => {
             </p>
             <div className='skills'>
             <h3>Skills:</h3>
-            
-            <p className='skill'>Frameworks & Libraries:</p>
-            
-            <span>Spring Framework | AngularJS | ExtJS</span>
             <p className='skill'>Design Libraries:</p>
             <span>Material Design	| Bootstrap</span>
             <p className='skill'>Development Tools:</p>
