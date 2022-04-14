@@ -13,7 +13,7 @@ const Nav = () => {
             <a href= 'https://christophercjohnson.vercel.app/#form' ><BsFillEnvelopeFill /></a>
             <a href='https://www.linkedin.com/in/christopher-code-johnson/' target='_blank' rel= 'noreferror noopener'><BsLinkedin /></a>
             <a href='https://github.com/redpumpkin21' target='_blant' rel=' noreferror noopener'><BsGithub /></a>
-            <a href='https://docs.google.com/document/d/1sIk2pfu08tuvqVwy4oSTbwFLryLwjos4O61rtBuXAIs/export?format=pdf' target='_blank' rel= 'noreferror noopener'> Resume</a>
+            <a href='https://docs.google.com/document/d/1sIk2pfu08tuvqVwy4oSTbwFLryLwjos4O61rtBuXAIs/ecport?format=pdf target='_blank' rel= 'noreferror noopener'> Resume</a>
         </div>
 
     )}
