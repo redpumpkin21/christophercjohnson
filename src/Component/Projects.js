@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 const Projects = () => {
     return (
         <div className = 'Projects'>
+            <h2>Projects: </h2>
             <article className= 'BookNRead'>
                 <h4>Book N Read</h4>
                 <img src = 'https://res.cloudinary.com/dx3a3l6k0/image/upload/v1646166749/Screen_Shot_2021-09-27_at_5.37.55_PM_epjm8z_Small_cdvxea.jpg'/>

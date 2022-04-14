@@ -13,12 +13,24 @@ body{
 .Projects{
     display: flex;
     flex-direction: column;
+    /* gap: 40px; */
 }
 .Projects img{
     width: 45%;
     /* height: 115%; */
     
 }
+
+.Projects h2{
+    text-align: left ;
+    padding-top: 5%;
+    
+}
+
+.Projects h4{
+    text-align: left;
+}
+
 .home{
     padding-left: 5%;
     padding-right: 5%;
@@ -28,6 +40,11 @@ body{
     grid-template-columns: 2;
     grid-template-rows: 2;
 }
+
+.Frizzy, .KDrama, .VideoGame{
+    padding-top: 20px;
+}
+
 .BookNRead img, .Frizzy img, .KDrama img, .VideoGame img{
     grid-column-start: 1;
     grid-column-end:1 ;
