@@ -10,41 +10,47 @@ body{
 
 /* hamburger */
 .navBar {
-    position: relative;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    padding-top: 10%;
   }
   
   .navBar button {
-    position: fixed;
+    position: absolute;
     left: 40px;
     top: 40px;
     z-index: 10;
     cursor: pointer;
     background: transparent;
     border: none;
+    padding-top: 10%;
   }
   
   .menuNav {
     overflow-y: scroll;
     list-style: none;
     position: fixed;
-    top: 0;
-    
+    top: 0;    
     left: 0;
     bottom: 0;
     height: 100vh;
     width: 0;
     overflow: hidden;
-    max-width: 290px;
+    max-width: 150px;
     z-index: 9;
   }
   
   .menuNav.showMenu {
     width: 100%;
+    padding-left: 0%;
+    padding-top: 8em;
   }
   
-  a {
+  .navBar a {
     display: block;
-    padding: 10px 40px;
+    margin: 10px 40px;
     text-decoration: none;
     color: #3fffd2;
     text-transform: uppercase;
@@ -119,12 +125,7 @@ body{
     grid-row-end: 3;
 }
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 5%;
-    padding-left: 5%;
-}
+
 
 .form{
     display:flex;

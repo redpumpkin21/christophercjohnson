@@ -13,11 +13,10 @@ const Nav = () => {
     return (
         <div className= 'nav'>
         <nav className="navBar">
-            <button onClick={handleToggle}>{navbarOpen ? (
-    <MdClose className='bar1'style={{ color: "#fff", width: "40px", height: "40px" }} />
-  ) : (
-    <FiMenu className= 'bar2'style={{ color: "#7b7b7b", width: "40px", height: "40px" }} />
-  )}</button>
+            <button onClick={handleToggle}>
+                {navbarOpen ? (<MdClose className='bar1' />): 
+                (<FiMenu className= 'bar2' />  )}
+    </button>
             <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
             <Link to= '/'>
                 <IoHomeSharp />

@@ -14,6 +14,7 @@ const Projects = () => {
 
             <article className = 'Frizzy'>
                 <h4>Frizzy</h4>
+                
                 <img src ='https://res.cloudinary.com/dx3a3l6k0/image/upload/v1646166714/Screen_Shot_2021-09-27_at_5.44.27_PM_cnvup1_Small_ebjh13.jpg'/>
             
                     <Link to= '/frizzy'> Details</Link>
@@ -22,9 +23,13 @@ const Projects = () => {
         
             <article className= 'KDrama'>
                 <h4>K-Drama Love</h4>
-                <img src = 'https://res.cloudinary.com/dx3a3l6k0/image/upload/v1646166726/Screen_Shot_2021-09-27_at_6.09.45_PM_rmasxb_Small_ivofnq.jpg'/>
-            
-                    <Link to= '/k-dramalove'> Details</Link>
+                
+                    <img src = 'https://res.cloudinary.com/dx3a3l6k0/image/upload/v1646166726/Screen_Shot_2021-09-27_at_6.09.45_PM_rmasxb_Small_ivofnq.jpg'/>
+                
+               
+                    <Link to= '/k-dramalove' className='Details'> Details</Link>
+                
+                    
                 
             </article>
                 

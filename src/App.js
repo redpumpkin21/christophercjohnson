@@ -16,9 +16,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <Nav />
         <h1>Christopher C Johnson</h1>
         <h2> Software Engineer</h2>
-        <Nav />
+        
         <Routes>
           <Route path ='/' element={<Home />}/>                                  
           <Route path = '/about' element ={<About />}/>            
