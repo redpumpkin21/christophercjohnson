@@ -184,6 +184,30 @@ body{
         .nav{
             justify-content: space-around;
         }
+        .navBar button{
+            visibility: hidden;
+        }
+        .navBar{
+            display: flex;
+            /* margin-bottom: 5%; */
+            align-items: flex-end;
+            justify-content: center;
+            position: absolute;
+            height: 160px;
+            padding-top: 0;
+        }
+        .menuNav{
+            display: contents;
+            height: 75px;
+            
+        }
+        .form{
+            width: 100%;
+            align-items: center;
+        }
+        .form input, .form textarea{
+            width: 50%
+        }
 }
 
 @media only screen  and (min-width: 1440px){
