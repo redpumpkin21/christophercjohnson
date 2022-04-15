@@ -55,7 +55,7 @@ body{
     display: block;
     margin: 10px 40px;
     text-decoration: none;
-    color: #3fffd2;
+    color: #256794;
     text-transform: uppercase;
     font-weight: bold;
   }
@@ -135,7 +135,9 @@ body{
     flex-direction: column;
     margin-top: 10%;
 }
-
+.form input{
+    color: #fff;
+}
 .about{
     text-align: left;
     /* margin-left: 2%; */
