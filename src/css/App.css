@@ -202,11 +202,11 @@ body{
             
         }
         .form{
-            width: 100%;
             align-items: center;
         }
         .form input, .form textarea{
-            width: 50%
+            width: 50%;
+            
         }
 }
 
