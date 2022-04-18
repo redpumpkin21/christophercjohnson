@@ -19,12 +19,12 @@ const Nav = () => {
     </button>
             <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
             <Link to= '/'>
-                <IoHomeSharp />
+                <IoHomeSharp size={25}/>
             </Link>            
-            <a href= 'https://christophercjohnson.vercel.app/#form' ><BsFillEnvelopeFill /></a>
-            <a href='https://www.linkedin.com/in/christopher-code-johnson/' target='_blank' rel= 'noreferror noopener'><BsLinkedin /></a>
-            <a href='https://github.com/redpumpkin21' target='_blant' rel=' noreferror noopener'><BsGithub /></a>
-            <a href='https://docs.google.com/document/d/1sIk2pfu08tuvqVwy4oSTbwFLryLwjos4O61rtBuXAIs/export?format=pdf' target='_blank' rel= 'noreferror noopener'> Resume</a>
+            <a href= 'https://christophercjohnson.vercel.app/#form' ><BsFillEnvelopeFill size={25}/></a>
+            <a href='https://www.linkedin.com/in/christopher-code-johnson/' target='_blank' rel= 'noreferror noopener'><BsLinkedin size={25} /></a>
+            <a href='https://github.com/redpumpkin21' target='_blant' rel=' noreferror noopener'><BsGithub  size={25}/></a>
+            <a href='https://docs.google.com/document/d/1sIk2pfu08tuvqVwy4oSTbwFLryLwjos4O61rtBuXAIs/export?format=pdf' target='_blank' rel= 'noreferror noopener' className='Resume'> Resume</a>
             </ul>
         </nav>
             
