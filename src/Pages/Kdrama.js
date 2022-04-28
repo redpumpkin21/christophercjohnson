@@ -13,6 +13,7 @@ const Kdrama = () => {
                 </p>
             <p>github frontend</p>
             <a href='https://github.com/CodingStephy/K-drama-Love-Frontend-'target='_blank' rel= 'noreferror noopener'> Front-end Git </a>
+            <p>Website</p>
             <a href='https://k-drama-love.vercel.app/' target='_blank' rel='noreferror noopener'> Site </a>
         </div>
         
