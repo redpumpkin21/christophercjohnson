@@ -28,7 +28,7 @@ const About = () => {
             <p className='skill'>Development Tools:</p>
             <span>Github | VS Code | Contentful | ReactStrap | Mongoose | Mongo DB</span>
             <p className='skill'>Languages:</p>
-            <span>JavaScript | CSS | JQuery | React | Angular | Express | Python | Typescript | SASS</span>
+            <span>JavaScript | CSS | JQuery | React | Angular | Express | Typescript | SASS</span>
             </div>
         </div>
         
