@@ -36,9 +36,18 @@ const Projects = () => {
             <article className= 'VideoGame'>
                 <h4>VideoGame</h4>
                 <img src= 'https://res.cloudinary.com/dx3a3l6k0/image/upload/v1646166738/Screen_Shot_2022-01-26_at_6.44.44_PM_slslke_Small_dr7vua.jpg'/>
-            
-                    <Link to= '/videogame'> Details</Link>
+                    <p>
+                        Desktop view
+                        <Link to= '/videogame'> Details</Link>
+                    </p>
+                    
                       
+            </article>
+
+            <article className= 'Todo'>
+                <h4>Todo</h4>
+                <img src= 'https://res.cloudinary.com/dx3a3l6k0/image/upload/v1669837854/613BCE21-488F-4135-8753-C727FA1ED27A_odstrh.png'/>
+                    <Link to= '/todo'> Details</Link>
             </article>
         
             

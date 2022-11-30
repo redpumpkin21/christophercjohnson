@@ -10,7 +10,7 @@ import BookNRead from './Pages/BookNRead';
 import Frizzy from './Pages/Frizzy';
 import Kdrama from './Pages/Kdrama';
 import VideoGame from './Pages/VideoGame';
-
+import Todo from './Pages/Todo';
 
 function App() {
   return (
@@ -28,6 +28,7 @@ function App() {
           <Route path = '/frizzy' element ={<Frizzy/>}/>
           <Route path = '/K-dramalove' element ={<Kdrama/>}/>
           <Route path = '/videogame' element ={<VideoGame/>}/>
+          <Route path= '/todo' element={<Todo />} />
         </Routes>        
         <Footer />
       </header>

@@ -88,7 +88,7 @@ body{
 .Projects img{
     width: 45%;
     /* height: 115%; */
-    
+    float: left;
 }
 
 .Projects h2{
@@ -105,7 +105,7 @@ body{
     padding-left: 5%;
     padding-right: 5%;
 }
-.BookNRead, .Frizzy, .KDrama, .VideoGame{
+.BookNRead, .Frizzy, .KDrama, .VideoGame, .Todo{
     display:grid;
     grid-template-columns: 2;
     grid-template-rows: 2;
@@ -115,22 +115,23 @@ body{
     padding-top: 20px;
 }
 
-.BookNRead img, .Frizzy img, .KDrama img, .VideoGame img{
+.BookNRead img, .Frizzy img, .KDrama img, .VideoGame img, .Todo img{
     grid-column-start: 1;
     grid-column-end:1 ;
     grid-row-start: 2;
     grid-row-end: 2;
 }
-.BookNRead p, .Frizzy p, .KDrama p, .VideoGame p{
+.BookNRead p, .Frizzy p, .KDrama p, .VideoGame p, .Todo p{
     grid-column-start: 2;
     grid-row-start: 1;
     grid-row-end: 2;
 }
-.BookNRead a, .Frizzy a, .KDrama a, .VideoGame a{
+.BookNRead a, .Frizzy a, .KDrama a, .VideoGame a, .Todo a{
     grid-column-start: 2;
     grid-row-start: 2;
     grid-row-end: 3;
 }
+
 
 
 
