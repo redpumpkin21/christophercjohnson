@@ -110,8 +110,8 @@ body{
 .firstdescr{
     display: flex;
     flex-direction: column;
-    gap: 10px
-
+    gap: 10px;
+    padding-left: 5%
 }
 
 .firstdescr p{
@@ -168,6 +168,10 @@ body{
     margin-top: 10%;
 }
 
+.todoImg{
+    height:500px ;
+    width: 300px
+}
 @media only screen and (min-width: 768px){
         .nav{
             justify-content: space-around;
@@ -181,7 +185,7 @@ body{
             align-items: flex-end;
             justify-content: center;
             position: absolute;
-            height: 160px;
+            height: 175px;
             padding-top: 0;
         }
         .menuNav{
@@ -196,7 +200,11 @@ body{
             width: 50%;
             
         }
+        .todoImg{
+            margin-top: 5%;
+        }
 }
+
 
 @media only screen  and (min-width: 1440px){
         

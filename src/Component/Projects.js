@@ -60,11 +60,8 @@ const Projects = () => {
                 <img src= 'https://res.cloudinary.com/dx3a3l6k0/image/upload/c_scale,w_300/v1669837998/613BCE21-488F-4135-8753-C727FA1ED27A_odstrh.png'/>
                 <div className= 'firstdescr'>
                     <p>Mobile View</p>
-                    <p className= 'tddescr'>An application built mainly to use for mobile devices.
-                        Sitting on a chair on the computer can lead to a whole mess
-                        of procastinations. Using your phone limits it. So when using
-                        the app on your phone have realtime to do list where you can create
-                        what you need to get done and then click finish to be done with it forever.
+                    <p className= 'tddescr'>An application built for mobile. Instead of having desktop distrations
+                    use app for realtime task creation and finishing.
                     </p>
                     <Link to= '/todo'> Details</Link>
                     
