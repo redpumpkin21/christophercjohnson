@@ -38,7 +38,7 @@ body{
     /* height: 100vh; */
     width: 0;
     overflow: hidden;
-    max-width: 150px;
+    max-width: 540px;
     z-index: 9;
   }
   
@@ -46,8 +46,10 @@ body{
     width: 100%;
     padding-left: 0%;
     padding-top: 8em;
-    height: 30em;
+    height: 2em;
     position: absolute;
+    display: flex;
+    justify-content: space-around;
     
   }
   
@@ -58,6 +60,7 @@ body{
     color: #256794;
     text-transform: uppercase;
     font-weight: bold;
+    margin: 0
   }
   
 .menuNav li:first-child {
@@ -128,13 +131,14 @@ body{
 }
 .about{
     text-align: left;
+    padding: 2em;
     
     
 }
 .about2{
-    margin-top: 2%;
-    
+    margin-top: 2%;    
     text-align: left;
+    padding: 2em;
 }
 
 .skills{
@@ -151,15 +155,16 @@ body{
 }
 
 .first{
-    height: 200px;
-    width: 150px;
-    margin-top: 5%;
+    height: 300px;
+    width: 250px;
+    margin-top: 3em;
 }
 
-.bookImg, .frizzyImg, .kdramaImg{
-    height: 320px;
-    width: 300px;
-    margin-top: 10%;
+.bookImg, .frizzyImg{
+    height: 220px;
+    width: 280px;
+    margin-top: 15%;
+    
 }
 
 .vgImg {
@@ -170,7 +175,7 @@ body{
 
 .todoImg{
     height:500px ;
-    width: 300px
+    width: 300px;
 }
 @media only screen and (min-width: 768px){
         .nav{
@@ -200,8 +205,24 @@ body{
             width: 50%;
             
         }
+      
+        .bookImg, .frizzyImg, .kdramaImg{
+            height: 220px;
+            width: 280px;
+            margin-top: 20%;
+            
+        }
+        
+        .vgImg {
+            height: 400px;
+            width: 300px;
+            margin-top: 10%;
+        }
+        
         .todoImg{
-            margin-top: 5%;
+            height:500px ;
+            width: 300px;
+            margin-top: 4%;
         }
 }
 
