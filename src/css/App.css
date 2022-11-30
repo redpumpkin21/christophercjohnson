@@ -117,35 +117,6 @@ body{
 .firstdescr p{
     margin-top: 0;
 }
-/* .BookNRead, .Frizzy, .VideoGame, .Todo{
-    display:grid;
-    grid-template-columns: 2;
-    grid-template-rows: 2;
-}
-
-.Frizzy, .VideoGame{
-    padding-top: 20px;
-}
-
-.BookNRead img, .Frizzy img, .VideoGame img, .Todo img{
-    grid-column-start: 1;
-    grid-column-end:1 ;
-    grid-row-start: 2;
-    grid-row-end: 2;
-}
-.BookNRead p, .Frizzy p, .VideoGame p, .Todo p{
-    grid-column-start: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-.BookNRead a, .Frizzy a, .VideoGame a, .Todo a{
-    grid-column-start: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
- */
-
-
 
 .form{
     display:flex;
