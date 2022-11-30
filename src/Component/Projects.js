@@ -19,19 +19,8 @@ const Projects = () => {
             
                     <Link to= '/frizzy'> Details</Link>
                 
-            </article>
-        
-            <article className= 'KDrama'>
-                <h4>K-Drama Love</h4>
-                
-                    <img src = 'https://res.cloudinary.com/dx3a3l6k0/image/upload/v1646166726/Screen_Shot_2021-09-27_at_6.09.45_PM_rmasxb_Small_ivofnq.jpg'/>
-                
-               
-                    <Link to= '/k-dramalove' className='Details'> Details</Link>
-                
-                    
-                
-            </article>
+            </article>       
+      
                 
             <article className= 'VideoGame'>
                 <h4>VideoGame</h4>
