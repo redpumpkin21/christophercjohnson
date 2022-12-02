@@ -23,7 +23,7 @@ const About = () => {
                     problem-solving, and strategic / analytical thinking skills.
                 </p>
          
-        </div>
+            </div>
             <div className='skills'>
                 <h3>Skills:</h3>
                 <p className='skill'>Design Libraries:</p>
