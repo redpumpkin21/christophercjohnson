@@ -238,12 +238,13 @@ body{
            
             padding-left: 30%;
             padding-right: 30%;
-            
+            padding-top: 0;
         }
         .about2{
-            
+            margin: 0;
             padding-left: 30%;
             padding-right: 30%;
+            padding-top: 0;
         }
         .aboproj{
             padding-left: 10%;
@@ -251,7 +252,13 @@ body{
 
         }
         img.first{
-            margin-top: 3%;
+            margin-top: 6%;
+        }
+        .BookNRead h4{
+            padding: 0!important;
+        }
+        .Projects h4{
+            padding-top: 1em;
         }
         .Projects img{
             height: 400px;
