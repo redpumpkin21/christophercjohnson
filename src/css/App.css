@@ -199,6 +199,12 @@ body{
             height: 75px;
             
         }
+        .about{
+            padding-bottom: 0;
+        }
+        .about2{
+            margin: 0;
+        }
         .form{
             align-items: center;
         }
@@ -244,7 +250,7 @@ body{
             margin: 0;
             padding-left: 30%;
             padding-right: 30%;
-            padding-top: 0;
+            
         }
         .aboproj{
             padding-left: 10%;

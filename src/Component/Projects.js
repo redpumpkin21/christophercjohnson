@@ -57,7 +57,7 @@ const Projects = () => {
 
             <article className= 'Todo'>
                 <h4>Todo</h4>
-                <img src= 'https://res.cloudinary.com/dx3a3l6k0/image/upload/c_scale,w_300/v1669837998/613BCE21-488F-4135-8753-C727FA1ED27A_odstrh.png'/>
+                <img src= 'https://res.cloudinary.com/dx3a3l6k0/image/upload/c_scale,w_300/v1670336894/9CCA323B-5EB2-49F4-9144-B73A28EB3751_wfvpg9.jpg'/>
                 <div className= 'firstdescr'>
                     <p>Mobile View</p>
                     <p className= 'tddescr'>An application built for mobile. Instead of having desktop distrations
