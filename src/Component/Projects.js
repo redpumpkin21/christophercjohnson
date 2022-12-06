@@ -9,9 +9,7 @@ const Projects = () => {
                 <img src = 'https://res.cloudinary.com/dx3a3l6k0/image/upload/v1646166749/Screen_Shot_2021-09-27_at_5.37.55_PM_epjm8z_Small_cdvxea.jpg'/>
                 <div className= 'firstdescr'>
                     <p>Desktop View</p>
-                    <p  className= 'bkdescr'>A website with a limited amount of videogames
-                        that you can see to show functionality of the site.
-                        search through and look at the games shown.
+                    <p  className= 'bkdescr'> First project created in bootcamp using cloudinary. I am sharing this site cause it shows where I started from and where I am now. 
                     </p>
                     <Link to= '/booknread'> Details</Link>
                     
@@ -26,9 +24,7 @@ const Projects = () => {
                 <img src ='https://res.cloudinary.com/dx3a3l6k0/image/upload/v1646166714/Screen_Shot_2021-09-27_at_5.44.27_PM_cnvup1_Small_ebjh13.jpg'/>
                 <div className= 'firstdescr'>
                     <p>Desktop View</p>
-                    <p className= 'fzdescr'>A website with a limited amount of videogames
-                        that you can see to show functionality of the site.
-                        search through and look at the games shown.
+                    <p className= 'fzdescr'>An application created as a group project where i focused on putting all the pieces of the backend togethor to view it.
                     </p>
                     <Link to= '/frizzy'> Details</Link>
                     

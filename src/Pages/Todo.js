@@ -1,7 +1,7 @@
 const Todo = () => {
     return(
         <div>
-            <img className ='todoImg' src = 'https://res.cloudinary.com/dx3a3l6k0/image/upload/v1669837854/613BCE21-488F-4135-8753-C727FA1ED27A_odstrh.png'/>
+            <img className ='todoImg' src = 'https://res.cloudinary.com/dx3a3l6k0/image/upload/c_scale,w_300/v1670336894/9CCA323B-5EB2-49F4-9144-B73A28EB3751_wfvpg9.jpg'/>
             <p className ='aboproj'> This is a project built using the MERN stack, MongoDB, Express, React, Node. I created the backend with express and MongoDB.
             Setting up the routes so that a person can do a simple CRUD. CRUD being Create, Read, Update, and Destroy. Postman was used to test the routes,
             to make sure everything is in good working order.</p>
