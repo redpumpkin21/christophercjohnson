@@ -18,20 +18,7 @@ const Projects = () => {
                 
             </article>
 
-            <article className = 'Frizzy'>
-                <h4>Frizzy</h4>
-                
-                <img src ='https://res.cloudinary.com/dx3a3l6k0/image/upload/v1646166714/Screen_Shot_2021-09-27_at_5.44.27_PM_cnvup1_Small_ebjh13.jpg'/>
-                <div className= 'firstdescr'>
-                    <p>Desktop View</p>
-                    <p className= 'fzdescr'>An application created as a group project where i focused on putting all the pieces of the backend togethor to view it.
-                    </p>
-                    <Link to= '/frizzy'> Details</Link>
-                    
-                </div> 
-                    
-                
-            </article>       
+           
       
                 
             <article className= 'VideoGame'>
